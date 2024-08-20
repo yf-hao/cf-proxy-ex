@@ -549,7 +549,7 @@ const redirectError = `
 async function handleRequest(request) {
   const url = new URL(request.url);
   if(request.url.endsWith("favicon.ico")){
-    return Response.redirect("https://www.baidu.com/favicon.ico", 301);
+    return Response.redirect("https://yfhao.us.kg/images/hao-icon-32.gif", 301);
   }
   //var siteOnly = url.pathname.substring(url.pathname.indexOf(str) + str.length);
 
